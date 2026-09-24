@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://jv5jirsp8lg2"]
+
+[ext_resource type="Script" uid="uid://eldnbjoh4f21" path="res://scripts/card_view.gd" id="1_kikvd"]
+
+[node name="Card" type="Node2D" unique_id=1924347606]
+script = ExtResource("1_kikvd")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=761474940]
+offset_right = 212.0
+offset_bottom = 306.0
+
+[node name="num1" type="Label" parent="." unique_id=823015945]
+offset_left = 11.0
+offset_top = 7.0
+offset_right = 51.0
+offset_bottom = 75.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "A"
+
+[node name="house1" type="Label" parent="num1" unique_id=153446781]
+layout_mode = 0
+offset_left = -10.0
+offset_top = 34.0
+offset_right = 166.0
+offset_bottom = 102.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "♠️♥️♦️♣️"
+
+[node name="num2" type="Label" parent="." unique_id=618654562]
+offset_left = 202.0
+offset_top = 305.0
+offset_right = 228.0
+offset_bottom = 350.2
+rotation = -3.1415927
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "A"
+
+[node name="house2" type="Label" parent="num2" unique_id=464719442]
+layout_mode = 0
+offset_left = -8.000015
+offset_top = 36.0
+offset_right = 168.00003
+offset_bottom = 81.20001
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "♠️♥️♦️♣️"
